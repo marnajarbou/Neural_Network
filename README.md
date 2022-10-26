@@ -16,5 +16,5 @@ We used Bek's dataset to build an unsupervised binary classifier that can foreca
 - The STATUS and SPECIAL_CONSIDERATIONS columns were removed, and Tanh was substituted for relu as the activation function for the three layers.
 - The first layer of the neural hidden layer contains 80 neurons, while the second layer contains 30 neurons. The output layer's activation function is "sigmoid," whereas the first and second hidden layers' activation functions are "relu."
 
-#Summary
+## Summary
 The accuracy goal of 75% was not met despite deep learning neural networks. Due to the target level's regularity, the model is not doing better than it. Given that our supervised model deals with binary classification, another supervised machine learning model might be employed, such as the Random Forest Classifier.
